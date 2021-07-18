@@ -13,10 +13,11 @@ function Contact() {
               <div class="row">
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="inputFirstName">First Name</label>
+                    <label for="inputEmail"></label>
                     <input
                       type="text"
                       class="form-control"
+                      placeholder="First Name"
                       id="inputFirstName"
                       required
                     ></input>
@@ -24,10 +25,11 @@ function Contact() {
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <label for="inputLastName">Last Name</label>
+                    <label for="inputEmail"></label>
                     <input
                       type="text"
                       class="form-control"
+                      placeholder="Last Name"
                       id="inputLastName"
                       required
                     ></input>
@@ -35,19 +37,21 @@ function Contact() {
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputEmail">Email Address</label>
+                <label for="inputEmail"></label>
                 <input
                   type="email"
                   class="form-control"
+                  placeholder="Email Address"
                   id="inputEmail"
                   required
                 ></input>
               </div>
               <div class="form-group">
-                <label for="inputMessage">Message</label>
+                <label for="inputMessage"></label>
                 <textarea
                   class="form-control"
                   id="inputMessage"
+                  placeholder="Message"
                   rows="5"
                   required
                 ></textarea>
