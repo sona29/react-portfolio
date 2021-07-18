@@ -19,9 +19,9 @@ import tracker from "../images/tracker.png";
 
 function Section() {
   return (
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio" id="work">
       <div class="container">
-        <h2>Work</h2>
+        <h2 class = "text-center text-uppercase">Work</h2>
         <div class="row justify-content-center">
           <div class="col-md-6 col-lg-4 mb-5">
             <img class="img-fluid" src={pantry} alt="..." />
@@ -43,8 +43,6 @@ function Section() {
           <div class="col-md-6 col-lg-4 mb-5">
             <img class="img-fluid" src={tracker} alt="..." />
           </div>
-
-
         </div>
       </div>
     </section>
