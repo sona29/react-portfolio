@@ -7,6 +7,7 @@ import screenshot from "../images/screenshot.png";
 import teamprofile from "../images/teamprofile.png";
 import techblog from "../images/techblog.png";
 import tracker from "../images/tracker.png";
+import { FaGithub } from "react-icons/fa";
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -26,25 +27,136 @@ function Work() {
           <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={pantry} alt="pantry" />
             <div className="overlay">
-              <div className="text">Hello World</div>
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/whats-in-my-pantry"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://sona29.github.io/whats-in-my-pantry/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  What's in my Pantry?
+                </a>
+              </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-5">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={capture} alt="forecast" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/weatherdashboard"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://sona29.github.io/weatherdashboard/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Weather Dashboard
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-5">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={screenshot} alt="schedular" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/dayschedular"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://sona29.github.io/dayschedular/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Day Schedular
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-5">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={teamprofile} alt="generator" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/teamprofilegenerator"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://drive.google.com/file/d/1xpg35eNshSvpFfMv1DTstRLhJj6fJBHl/view"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Team Profile Generator
+                </a>
+              </div>
+            </div>
           </div>
 
-          <div className="col-md-6 col-lg-4 mb-5">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={techblog} alt="blog" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/techblog"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://damp-badlands-21790.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Tech Blog
+                </a>
+              </div>
+            </div>
           </div>
 
-          <div className="col-md-6 col-lg-4 mb-5">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={tracker} alt="tracker" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/procrastination-tracker"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="https://procrastination-tracker.herokuapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Procrastination Tracker
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
