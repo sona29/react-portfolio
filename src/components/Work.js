@@ -22,7 +22,9 @@ function Work() {
   return (
     <section className="page-section portfolio py-5" id="work">
       <div className="container">
-        <h2 className="text-center text-uppercase">Work</h2>
+        <h2 className="text-center text-uppercase">
+          <span className="underline-magical">Work</span>
+        </h2>
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={pantry} alt="pantry" />
@@ -30,6 +32,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/whats-in-my-pantry"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -38,6 +41,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://sona29.github.io/whats-in-my-pantry/"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -52,6 +56,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/weatherdashboard"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -60,6 +65,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://sona29.github.io/weatherdashboard/"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -74,6 +80,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/dayschedular"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -82,6 +89,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://sona29.github.io/dayschedular/"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -96,6 +104,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/teamprofilegenerator"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -104,6 +113,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://drive.google.com/file/d/1xpg35eNshSvpFfMv1DTstRLhJj6fJBHl/view"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -119,6 +129,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/techblog"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -127,6 +138,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://damp-badlands-21790.herokuapp.com/"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -142,6 +154,7 @@ function Work() {
               <div className="text">
                 <a
                   href="https://github.com/sona29/procrastination-tracker"
+                  className="text-dark"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -150,6 +163,7 @@ function Work() {
                 <br></br>
                 <a
                   href="https://procrastination-tracker.herokuapp.com/"
+                  className="work-link"
                   target="_blank"
                   rel="noreferrer"
                 >

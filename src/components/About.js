@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
-
+import Zoom from "react-reveal/Zoom";
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
 // We use JSX curly braces to evaluate the style object
@@ -13,17 +13,21 @@ function About() {
   return (
     <section className="page-section text-white about-section py-5" id="about">
       <div className="container">
-        <h2 className="text-center text-uppercase text-white">About</h2>
+        <Zoom>
+          <h2 className="text-center text-uppercase text-white ">
+            <span className="underline-magical">About</span>
+          </h2>
 
-        <div className="row">
-          <p>
-            I am Sona Shrestha. I live in Girraween. I am working as an
-            Implementation Officer. Currently I am doing bootcamp course on Full
-            Stack Web Development. It is helping to move forwards towards my
-            career goal. I am looking for opportunity in Entry level Web
-            Development.
-          </p>
-        </div>
+          <div className="row">
+            <p>
+              I am Sona Shrestha. I live in Girraween. I am working as an
+              Implementation Officer. Currently I am doing bootcamp course on
+              Full Stack Web Development. It is helping to move forwards towards
+              my career goal. I am looking for opportunity in Entry level Web
+              Development.
+            </p>
+          </div>
+        </Zoom>
 
         <div className="text-center social-icons">
           <a

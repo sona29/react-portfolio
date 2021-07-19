@@ -7,7 +7,9 @@ function Contact() {
       <div className="container">
         <div className="col-md-8 mx-auto">
           <div className="contact-form">
-            <h1 className="text-center">Contact</h1>
+            <h1 className="text-center">
+              <span className="underline-magical">Contact</span>
+            </h1>
 
             <form action="/examples/actions/confirmation.php" method="post">
               <div className="row">

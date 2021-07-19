@@ -9,7 +9,9 @@ function Footer() {
   return (
     <section className="page-section text-white py-5" id="footer">
       <div className="container">
-        <small>Copyright &copy; Sona Shrestha 2021</small>
+        <small className="text-center">
+          Copyright &copy; Sona Shrestha 2021
+        </small>
       </div>
     </section>
   );

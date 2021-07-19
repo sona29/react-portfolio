@@ -1,11 +1,16 @@
 import React from "react";
 import "../styles/Navbar.css";
 
+const handleClick = () => {};
+
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark header fixed-top">
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark header fixed-top"
+      onClick={handleClick}
+    >
       Sona Shrestha
       <button
         className="navbar-toggler"
