@@ -17,31 +17,34 @@ import tracker from "../images/tracker.png";
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
-function Section() {
+function Work() {
   return (
-    <section class="page-section portfolio" id="work">
-      <div class="container">
-        <h2 class = "text-center text-uppercase">Work</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={pantry} alt="..." />
+    <section className="page-section portfolio py-5" id="work">
+      <div className="container">
+        <h2 className="text-center text-uppercase">Work</h2>
+        <div className="row justify-content-center">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
+            <img className="img-fluid" src={pantry} alt="pantry" />
+            <div className="overlay">
+              <div className="text">Hello World</div>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={capture} alt="..." />
+          <div className="col-md-6 col-lg-4 mb-5">
+            <img className="img-fluid" src={capture} alt="forecast" />
           </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={screenshot} alt="..." />
+          <div className="col-md-6 col-lg-4 mb-5">
+            <img className="img-fluid" src={screenshot} alt="schedular" />
           </div>
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={teamprofile} alt="..." />
+          <div className="col-md-6 col-lg-4 mb-5">
+            <img className="img-fluid" src={teamprofile} alt="generator" />
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={techblog} alt="..." />
+          <div className="col-md-6 col-lg-4 mb-5">
+            <img className="img-fluid" src={techblog} alt="blog" />
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5">
-            <img class="img-fluid" src={tracker} alt="..." />
+          <div className="col-md-6 col-lg-4 mb-5">
+            <img className="img-fluid" src={tracker} alt="tracker" />
           </div>
         </div>
       </div>
@@ -49,4 +52,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Work;

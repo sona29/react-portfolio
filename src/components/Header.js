@@ -8,15 +8,13 @@ import profile from "../images/profile.JPG";
 
 function Header() {
   return (
-    <header class=" text-white text-center about-section">
-      <div class="container d-flex align-items-center flex-column ">
-        <img class="profile-picture" src={profile} alt="profilePic" />
+    <header className=" text-white text-center about-section py-5">
+      <div className="container d-flex align-items-center flex-column ">
+        <img className="profile-picture" src={profile} alt="profilePic" />
 
         <h1>Sona Shrestha</h1>
 
-        <p class="masthead-subheading font-weight-light">
-          Full Stack Web Developer 
-        </p>
+        <p className="font-weight-light">Full Stack Web Developer</p>
       </div>
     </header>
   );

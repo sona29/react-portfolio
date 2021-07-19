@@ -5,10 +5,10 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark header">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark header fixed-top">
       Sona Shrestha
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -16,28 +16,28 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse navbar-a" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">
-              About Me{" "}
+      <div className="collapse navbar-collapse navbar-a" id="navbarNav">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a className="nav-link px-2" href="#about">
+              About Me
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">
+          <li className="nav-item">
+            <a className="nav-link px-2" href="#work">
               Work
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">
+          <li className="nav-item">
+            <a className="nav-link px-2" href="#contact">
               Contact Me
             </a>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link px-2"
               href="./assets/images/cv-sona.pdf"
               target="_blank"
             >

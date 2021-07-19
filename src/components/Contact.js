@@ -3,32 +3,32 @@ import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <section class="page-section" id="contact">
-      <div class="container">
-        <div class="col-md-8 mx-auto">
-          <div class="contact-form">
-            <h1>Contact</h1>
+    <section className="page-section py-5" id="contact">
+      <div className="container">
+        <div className="col-md-8 mx-auto">
+          <div className="contact-form">
+            <h1 className="text-center">Contact</h1>
 
             <form action="/examples/actions/confirmation.php" method="post">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="inputEmail"></label>
+              <div className="row">
+                <div className="col-sm-6">
+                  <div className="form-group">
+                    <label htmlFor="inputEmail"></label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="First Name"
                       id="inputFirstName"
                       required
                     ></input>
                   </div>
                 </div>
-                <div class="col-sm-6">
-                  <div class="form-group">
-                    <label for="inputEmail"></label>
+                <div className="col-sm-6">
+                  <div className="form-group">
+                    <label htmlFor="inputEmail"></label>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       placeholder="Last Name"
                       id="inputLastName"
                       required
@@ -36,20 +36,20 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="inputEmail"></label>
+              <div className="form-group">
+                <label htmlFor="inputEmail"></label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Email Address"
                   id="inputEmail"
                   required
                 ></input>
               </div>
-              <div class="form-group">
-                <label for="inputMessage"></label>
+              <div className="form-group">
+                <label htmlFor="inputMessage"></label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   id="inputMessage"
                   placeholder="Message"
                   rows="5"
@@ -58,7 +58,7 @@ function Contact() {
               </div>
               <input
                 type="submit"
-                class="btn btn-primary"
+                className="btn btn-primary my-2"
                 value="Submit"
               ></input>
             </form>
