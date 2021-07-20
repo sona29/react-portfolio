@@ -22,9 +22,9 @@ function Work() {
   return (
     <section className="page-section portfolio py-5" id="work">
       <div className="container">
-        <h2 className="text-center text-uppercase">
+        <h1 className="text-center">
           <span className="underline-magical">Work</span>
-        </h2>
+        </h1>
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={pantry} alt="pantry" />
