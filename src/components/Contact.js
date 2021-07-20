@@ -11,7 +11,7 @@ function Contact() {
               <span className="underline-magical">Contact</span>
             </h1>
 
-            <form action="/examples/actions/confirmation.php" method="post">
+            <form>
               <div className="row">
                 <div className="col-sm-6">
                   <div className="form-group">
@@ -33,7 +33,6 @@ function Contact() {
                       className="form-control"
                       placeholder="Last Name"
                       id="inputLastName"
-                      required
                     ></input>
                   </div>
                 </div>

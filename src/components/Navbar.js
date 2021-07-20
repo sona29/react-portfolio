@@ -1,16 +1,13 @@
 import React from "react";
 import "../styles/Navbar.css";
-
-const handleClick = () => {};
+// import { useState } from "react";
+import cv from "../images/cv-sona.pdf";
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Navbar() {
   return (
-    <nav
-      className="navbar navbar-expand-lg navbar-dark bg-dark header fixed-top"
-      onClick={handleClick}
-    >
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark header fixed-top ">
       Sona Shrestha
       <button
         className="navbar-toggler"
@@ -43,8 +40,9 @@ function Navbar() {
           <li className="nav-item">
             <a
               className="nav-link px-2"
-              href="./assets/images/cv-sona.pdf"
+              href={cv}
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>
