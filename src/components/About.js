@@ -14,9 +14,9 @@ function About() {
     <section className="page-section text-white about-section py-5" id="about">
       <div className="container">
         <Zoom>
-          <h2 className="text-center text-uppercase text-white ">
+          <h1 className="text-center text-uppercase text-white ">
             <span className="underline-magical">About</span>
-          </h2>
+          </h1>
 
           <div className="row">
             <p>
