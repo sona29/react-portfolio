@@ -20,10 +20,10 @@ function About() {
 
           <div className="row">
             <p>
-              I am Sona Shrestha. I live in Girraween. I am working as an
-              Implementation Officer. Currently I am doing bootcamp course on
-              Full Stack Web Development. It is helping to move forwards towards
-              my career goal. I am looking for opportunity in Entry level Web
+              I am Sona Shrestha. I am a full stack web developer who recently
+              completed bootcamp course from University of Sydney. The course
+              has really helped me become technically sound in developing the
+              website. I am looking for opportunity in Full Stack Web
               Development.
             </p>
           </div>
