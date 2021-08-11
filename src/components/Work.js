@@ -7,6 +7,7 @@ import screenshot from "../images/screenshot.png";
 import teamprofile from "../images/teamprofile.png";
 import techblog from "../images/techblog.png";
 import tracker from "../images/tracker.png";
+import pony from "../images/pony.JPG";
 import { FaGithub } from "react-icons/fa";
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
@@ -26,6 +27,30 @@ function Work() {
           <span className="underline-magical">Work</span>
         </h1>
         <div className="row justify-content-center">
+          <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
+            <img className="img-fluid" src={pony} alt="pantry" />
+            <div className="overlay">
+              <div className="text">
+                <a
+                  href="https://github.com/sona29/little-pony"
+                  className="text-dark"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub />
+                </a>
+                <br></br>
+                <a
+                  href="http://fierce-basin-74798.herokuapp.com/"
+                  className="work-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Little Pony
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="col-md-6 col-lg-4 mb-5 f-image position-relative">
             <img className="img-fluid" src={pantry} alt="pantry" />
             <div className="overlay">
