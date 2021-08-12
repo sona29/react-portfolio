@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 // import { useState } from "react";
-import cv from "../images/updated-cv-pdf.pdf";
+import cv from "../images/cv.pdf";
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
