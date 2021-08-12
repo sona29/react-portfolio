@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7152c326.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e4684317.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e4684317.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.f4b9db3e.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f4b9db3e.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.0bca3e4c.chunk.css": "/react-portfolio/static/css/2.0bca3e4c.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/Capture.9a07143b.PNG": "/react-portfolio/static/media/Capture.9a07143b.PNG",
     "static/media/cv-sona.69b5ca95.pdf": "/react-portfolio/static/media/cv-sona.69b5ca95.pdf",
     "static/media/pantry.ee30d566.png": "/react-portfolio/static/media/pantry.ee30d566.png",
+    "static/media/pony.363711d1.JPG": "/react-portfolio/static/media/pony.363711d1.JPG",
     "static/media/profile.bd06e9e5.JPG": "/react-portfolio/static/media/profile.bd06e9e5.JPG",
     "static/media/screenshot.9c745646.png": "/react-portfolio/static/media/screenshot.9c745646.png",
     "static/media/teamprofile.5465d783.png": "/react-portfolio/static/media/teamprofile.5465d783.png",
@@ -26,6 +27,6 @@
     "static/css/2.0bca3e4c.chunk.css",
     "static/js/2.87f0cc5f.chunk.js",
     "static/css/main.7152c326.chunk.css",
-    "static/js/main.e4684317.chunk.js"
+    "static/js/main.f4b9db3e.chunk.js"
   ]
 }
