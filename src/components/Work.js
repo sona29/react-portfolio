@@ -32,7 +32,7 @@ function Work() {
             <div className="overlay">
               <div className="text">
                 <a
-                  href="https://github.com/sona29/little-pony"
+                  href="https://infinite-reef-88558-7338f8f53097.herokuapp.com/"
                   className="text-dark"
                   target="_blank"
                   rel="noreferrer"
