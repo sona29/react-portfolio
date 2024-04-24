@@ -20,11 +20,13 @@ function About() {
 
           <div className="row">
             <p>
-              I am Sona Shrestha. I am a full stack web developer who recently
-              completed bootcamp course from University of Sydney. The course
-              has really helped me become technically sound in developing the
-              website. I am looking for opportunity in Full Stack Web
-              Development.
+              Highly motivated Full Stack Developer with a strong educational
+              background in Computer Engineering and extensive hands-on
+              experience in Full Stack Development. Skilled in collaborating
+              with cross-functional teams to design, develop, and implement
+              robust software solutions. Expertise in Java, JavaScript, and
+              Grails programming languages and a strong grasp of browser-based
+              technologies
             </p>
           </div>
         </Zoom>
